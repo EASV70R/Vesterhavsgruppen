@@ -4,6 +4,15 @@ body {
   color: #444444;
 }
 
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+footer{
+  margin-top: auto;
+}
+
 a {
   color: #106eea;
   text-decoration: none;
