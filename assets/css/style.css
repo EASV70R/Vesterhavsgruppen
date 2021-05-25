@@ -460,6 +460,50 @@ section {
   }
 }
 
+about {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.about-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.about h1 {
+
+}
+
+.about-title p {
+  float: left;
+}
+
+.about-title h2 {
+  font-size: 28px;
+  font-weight: 200;
+}
+
+.about-title h3 {
+  margin: 15px 0 0 0;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.about-title h3 span {
+  color: #106eea;
+}
+
+.about-title p {
+  margin: 15px auto 0 auto;
+  font-weight: 600;
+}
+
+@media (min-width: 1024px) {
+  .about-title p {
+  /*  width: 50%;*/
+  }
+}
+
 .sponsor {
   padding: 15px 0;
   text-align: center;
