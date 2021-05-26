@@ -460,14 +460,22 @@ section {
   }
 }
 
-about {
+.about {
   padding: 60px 0;
   overflow: hidden;
 }
 
+.about-bg {
+  background-color: #f6f9fe;
+}
+
+.about-container
+{
+  padding-bottom: 30px;
+}
 .about-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding: 5px 0 5px 0;
 }
 
 .about h1 {
@@ -493,7 +501,7 @@ about {
   color: #106eea;
 }
 
-.about-title p {
+.about-container li {
   margin: 15px auto 0 auto;
   font-weight: 600;
 }
