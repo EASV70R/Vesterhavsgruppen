@@ -3,6 +3,7 @@ $color_mine_shaft_approx: #444444;
 $color_blue_ribbon_approx: #106eea;
 $color_dodger_blue_approx: #3b8af2;
 $white: #fff;
+$photoclr: #f6f9fe;
 $black_10: rgba(0, 0, 0, 0.1);
 $color_manatee_25_approx: rgba(127, 137, 161, 0.25);
 $color_cod_gray_90_approx: rgba(9, 9, 9, 0.9);
@@ -15,7 +16,6 @@ $color_rolling_stone_approx: #7d8285;
 $font_0: Open Sans;
 $font_1: sans-serif;
 $font_2: Roboto;
-$font_3: Poppins;
 
 //urls
 $url_0: url(../img/main-bg.jpg);
@@ -74,7 +74,7 @@ h6 {
 		line-height: 1;
 		font-weight: 600;
 		letter-spacing: 0.8px;
-		font-family: $font_3, $font_1;
+		font-family: $font_0, $font_1;
 		a {
 			color: $color_mine_shaft_approx;
 			span {
@@ -360,7 +360,7 @@ h6 {
 		font-weight: 700;
 		line-height: 56px;
 		color: $color_mine_shaft_approx;
-		font-family: $font_3, $font_1;
+		font-family: $font_0, $font_1;
 		text-align: center;
 		span {
 			color: $color_blue_ribbon_approx;
@@ -606,7 +606,7 @@ section {
 }
 .photo-gallery {
 	color: $color_shark_approx;
-	background-color: $white;
+	background-color: $photoclr;
 	p {
 		color: $color_rolling_stone_approx;
 	}
