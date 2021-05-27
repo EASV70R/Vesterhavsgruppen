@@ -222,6 +222,13 @@ h6 {
 		}
 	}
 }
+
+@media screen and (max-width: 768px) {
+	[data-aos-delay] {
+	  transition-delay: 0 !important;
+	}
+  }
+
 .mobile-nav-toggle {
 	color: $color_mine_shaft_approx;
 	font-size: 28px;
@@ -416,6 +423,74 @@ h6 {
 		}
 	}
 }
+
+.featured-services .icon-box {
+	width: 500px;
+	height: 200px;
+	margin-right: 20px;
+	position: relative;
+	overflow: hidden;
+	background: #fff;
+	box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+	transition: all 0.3s ease-in-out;
+	border-radius: 8px;
+	z-index: 1;
+  }
+  
+  .featured-services .icon-box::before {
+	content: '';
+	position: absolute;
+	background: #cbe0fb;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	top: 100%;
+	transition: all 0.3s;
+	z-index: -1;
+  }
+  
+  .featured-services .icon-box:hover::before {
+	background: #106eea;
+	top: 0;
+	border-radius: 0px;
+  }
+  
+  .featured-services .icon {
+	margin-bottom: 15px;
+  }
+  
+  .featured-services .icon i {
+	font-size: 48px;
+	line-height: 1;
+	color: #106eea;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  .featured-services .title {
+	font-weight: 700;
+	margin-bottom: 15px;
+	font-size: 18px;
+  }
+  
+  .featured-services .title a {
+	color: #111;
+  }
+  
+  .featured-services .description {
+	font-size: 15px;
+	line-height: 28px;
+	margin-bottom: 0;
+  }
+  
+  .featured-services .icon-box:hover .title a, .featured-services .icon-box:hover .description {
+	color: #fff;
+  }
+  
+  .featured-services .icon-box:hover .icon i {
+	color: #fff;
+  }
+
+
 @media(min-width: 1024px) {
 	#main {
 		background-attachment: fixed;
@@ -423,6 +498,7 @@ h6 {
 	.section-title p {
 	}
 	.about-title p {
+		
 	}
 }
 @media only screen and (min-width: 992px) {
@@ -496,6 +572,13 @@ section {
 	padding: 60px 0;
 	overflow: hidden;
 }
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .section-bg {
 }
 .section-title {
@@ -539,6 +622,8 @@ section {
 .about-title {
 	text-align: center;
 	padding: 5px 0;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
 	p {
 		float: left;
 	}
