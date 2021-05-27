@@ -425,6 +425,28 @@ h6 {
 	.about-title p {
 	}
 }
+@media only screen and (min-width: 992px) {
+	#footer {
+		.copyright {
+			float: left;
+			text-align: center;
+			padding: 2px 0;
+		}
+		.address {
+			float: none;
+			text-align: center;
+			padding: 2px 0;
+		}
+		.social {
+			float: none;
+			text-align: center;
+			padding: 2px 0;
+		}
+	}
+	.sponsor img {
+		max-width: 40%;
+	}
+}
 @media(max-width: 768px) {
 	#main {
 		height: 100vh;
@@ -564,7 +586,6 @@ section {
 	}
 	.copyright {
 		text-align: center;
-		float: left;
 	}
 	.address {
 		text-align: center;
