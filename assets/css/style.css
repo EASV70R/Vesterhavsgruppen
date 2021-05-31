@@ -413,10 +413,10 @@ h6 {
 
 #main h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 50px;
   font-weight: 700;
   line-height: 56px;
-  color: black;
+  color: white;
   font-family: Open Sans, sans-serif;
   text-align: center;
 }
@@ -426,7 +426,7 @@ h6 {
 }
 
 #main h2 {
-  color: black;
+  color: white;
   margin: 5px 0 30px;
   font-size: 24px;
   font-weight: 700;

@@ -364,10 +364,10 @@ h6 {
 	}
 	h1 {
 		margin: 0;
-		font-size: 48px;
+		font-size: 50px;
 		font-weight: 700;
 		line-height: 56px;
-		color: black;
+		color: white;
 		font-family: $font_0, $font_1;
 		text-align: center;
 		span {
@@ -375,7 +375,7 @@ h6 {
 		}
 	}
 	h2 {
-		color: black;
+		color: white;
 		margin: 5px 0 30px;
 		font-size: 24px;
 		font-weight: 700;
@@ -497,8 +497,8 @@ h6 {
     .featured-services .row
     {
         display: flex;
-	justify-content: center;
-	align-items: center;
+    	justify-content: center;
+	    align-items: center;
     }
 	#main {
 		background-attachment: fixed;
