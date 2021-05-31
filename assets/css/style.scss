@@ -224,6 +224,7 @@ h6 {
 }
 
 @media screen and (max-width: 768px) {
+    
 	[data-aos-delay] {
 	  transition-delay: 0 !important;
 	}
@@ -493,6 +494,12 @@ h6 {
 
 
 @media(min-width: 1024px) {
+    .featured-services .row
+    {
+        display: flex;
+	justify-content: center;
+	align-items: center;
+    }
 	#main {
 		background-attachment: fixed;
 	}
@@ -718,6 +725,7 @@ section {
 	}
 }
 @media(max-width:767px) {
+    
 	.photo-gallery h2 {
 		margin-bottom: 25px;
 		padding-top: 25px;
