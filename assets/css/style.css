@@ -551,6 +551,10 @@ h6 {
   color: #fff;
 }
 
+.featured-services .icon-box:hover li {
+  color: #fff;
+}
+
 .featured-services .icon-box:hover .icon i {
   color: #fff;
 }
