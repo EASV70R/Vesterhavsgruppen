@@ -824,4 +824,13 @@ section {
     font-size: 24px;
   }
 }
+
+@media (min-width: 992px) {
+  .col-lg-3 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 30%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
