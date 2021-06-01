@@ -508,13 +508,6 @@ h6 {
     color: #fff;
 }
 
-.displayf {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5px;
-    justify-content: space-evenly;
-}
-
 @media(min-width: 1024px) {
     .featured-services .row {
         display: flex;
